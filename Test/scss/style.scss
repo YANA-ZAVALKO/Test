@@ -1,0 +1,30 @@
+@import 'reset';
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'layout';
+@import 'main';
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    flex: 1 0 auto;
+}
